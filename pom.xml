@@ -144,7 +144,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/USUARIO/REPO</url>
+            <url>https://maven.pkg.github.com/jsalasx/banco-shared</url>
         </repository>
     </distributionManagement>
 
