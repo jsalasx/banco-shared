@@ -16,13 +16,9 @@ import java.util.UUID;
 @ApplicationScoped
 public class JwtService implements IJwtService {
 
-    @Inject
-    @ConfigProperty(name = "jwt.secret")
-    String secret;
+    private static final String secret = "the-most-secret-key-of-all-the-world";
 
-    @Inject
-    @ConfigProperty(name = "jwt.secret.refresh")
-    String secretRefresh;
+    private static final String secretRefresh= "the-most-secret-key-of-all-the-world";
 
     private static final Long EXPIRES_IN_MINUTES = 60L;
     private static final Long REFRESH_EXPIRES_IN_MINUTES = 43200L;
